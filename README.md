@@ -22,44 +22,31 @@ Experimental results show that our ASTE-AL can find such a point-labeled dataset
 
 ## Usage
 
-1. **Environment**
+## Prerequisites
+- [Python 3.5](https://www.python.org/)
+- [Pytorch 1.3](http://pytorch.org/)
+- [OpenCV 4.0](https://opencv.org/)
+- [Numpy 1.15](https://numpy.org/)
+- [TensorboardX](https://github.com/lanpa/tensorboardX)
+- [Apex](https://github.com/NVIDIA/apex)
 
-    ```
-    GPU: V100 x 1
-    Install Python 3.7, PyTorch 1.8.2
-    pip install requirements.txt
 
-2. **Datasets preparation**
+## Clone repository
 
-    Download necessary datasets:  
-    from my google-drive: [DUTS_class](https://drive.google.com/file/d/1SKaxMtIaLJk2CRdSbf-S0m6vMag1grmd/view?usp=drive_link), [COCO-9k](https://drive.google.com/file/d/1r6tRcSlvH8bXhaZD2VtGmHDxsXFl1v4z/view?usp=drive_link), [COCO-SEG](https://drive.google.com/file/d/1LIOt8mFubvLCJAMUXfgDLRYPLr2zfi9y/view?usp=drive_link), and [CoSOD_testsets](https://drive.google.com/file/d/1pTjxK4gu5kfVeR4Fdc1shZgk47FvybCe/view?usp=drive_link), or  
-    from my BaiduDisk: [DUTS_class](https://pan.baidu.com/s/1xNUaar-bzS3apJpHQED9dg?pwd=PSWD), [COCO-9k](https://pan.baidu.com/s/1AEH593Sq1XGZHhgoT4fhfg?pwd=PSWD), [COCO-SEG](https://pan.baidu.com/s/1amS0atRCh85S54CBdQpFDw?pwd=PSWD), and [CoSOD_testsets](https://pan.baidu.com/s/136TGYw_dh7KtVAHw6Kgknw?pwd=PSWD).  
-   The `CoSOD_testsets` contains CoCA, CoSOD3k and CoSal2015.
+```shell
+git clone git@github.com:weijun88/F3Net.git
+cd F3Net/
+```
 
-   The file directory structure on my machine is as follows:
+## Download dataset
 
-    ```
-    +-- datasets
-    |   +-- sod
-    |       +-- images
-    |           +-- DUTS_class
-    |           +-- COCO-9k
-    |           ...
-    |           +-- CoSal2015
-    |       +-- gts
-    |           +-- DUTS_class
-    |           +-- COCO-9k
-    |           ...
-    |           +-- CoSal2015
-    |   ...
-    ...
-    +-- codes
-    |   +-- sod
-    |       +-- GCoNet_plus
-    |       ...
-    |   ...
-    ...
-    ```
+Download the following datasets and unzip them into `data` folder
+
+- [PASCAL-S](http://cbi.gatech.edu/salobj/)
+- [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)
+- [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html)
+- [DUT-OMRON](http://saliencydetection.net/dut-omron/)
+- [DUTS](http://saliencydetection.net/duts/)
 
 4. **Update the paths**
 
