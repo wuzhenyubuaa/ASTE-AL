@@ -10,13 +10,13 @@ Experimental results show that our ASTE-AL can find such a point-labeled dataset
 
 > The figure of network architecture is drawn by [Inkscape (0.92.5)](https://inkscape.org/release/inkscape-0.92.5/) as a .svg file. You can download and modify it if you find it useful.
 
-![arch](README.assets/arch.svg)
+![arch](README.assets/pipeline.png)
 
 ## Result
 
 + Comparison with the previous state-of-the-art methods with different training sets:
 
-![image-20220601123106208](README.assets/image-20220426224731550.png)
+![image-20220601123106208](README.assets/results.png)
 
 + Ablation study:
 
