@@ -18,27 +18,7 @@ Experimental results show that our ASTE-AL can find such a point-labeled dataset
 
 ![image-20220601123106208](README.assets/results.png)
 
-+ Ablation study:
 
-<img src="README.assets/image-20220426224944251.png" alt="image-20220426224944251"  />
-
-<img src="README.assets/image-20220426225011381.png" alt="image-20220426225011381"  />
-
-<img src="README.assets/image-20220426225038722.png" alt="image-20220426225038722"  />
-
-## Prediction
-
-To see the better performance of our **GCoNet+**, we select the currently latest and top models ([UFO-arXiv2022](https://github.com/suyukun666/UFO), [DCFM-CVPR2022](https://github.com/siyueyu/DCFM), and [CADC-ICCV2021](https://github.com/nnizhang/CADC)) for the qualitative comparison.
-
-We not only show the selected extremely hard samples in the test sets but also simply put the unscreened samples (the first 10 samples in the first group in CoCA) for more objective and fair qualitative comparisons.
-
-+ The first^2 samples:
-
-![qual4README.png](README.assets/qual4README.png)
-
-+ The extremely hard cases:
-
-![qual4README.png](README.assets/qual4README_hardcase.png)
 
 ## Usage
 
