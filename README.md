@@ -84,26 +84,19 @@ Download the following datasets and unzip them into `data` folder
 
 ## Acknowledgement
 
-We appreciate the codebases of [GICD](https://github.com/zzhanghub/gicd), [GCoNet](https://github.com/fanq15/GCoNet). Thanks for the CoSOD evaluation toolbox provided in [eval-co-sod](https://github.com/zzhanghub/eval-co-sod). Thanks for the drawing codes of figure 1 from [DGNet](https://github.com/GewelsJI/DGNet).
+We appreciate the codebases of [F3Net](https://github.com/weijun88/F3Net), [MINet](https://github.com/lartpang/MINet) and (PFSN)(https://github.com/iCVTEAM/PFSNet).
 
 ### Citation
 
 ```
-@article{zheng2022gconet+,
-  author={Zheng, Peng and Fu, Huazhu and Fan, Deng-Ping and Fan, Qi and Qin, Jie and Tai, Yu-Wing and Tang, Chi-Keung and Van Gool, Luc},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={GCoNet+: A Stronger Group Collaborative Co-Salient Object Detector}, 
-  year={2023},
-  volume={45},
-  number={9},
-  pages={10929-10946},
-  doi={10.1109/TPAMI.2023.3264571}
-}
-@inproceedings{fan2021gconet,
-  title = {Group Collaborative Learning for Co-Salient Object Detection},
-  author = {Fan, Qi and Fan, Deng-Ping and Fu, Huazhu and Tang, Chi-Keung and Shao, Ling and Tai, Yu-Wing},
-  booktitle = CVPR,
-  year = {2021}
+@inproceedings{wu2023pixel,
+  title={Pixel is all you need: adversarial trajectory-ensemble active learning for salient object detection},
+  author={Wu, Zhenyu and Wang, Lin and Wang, Wei and Xia, Qing and Chen, Chenglizhao and Hao, Aimin and Li, Shuo},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={2883--2891},
+  year={2023}
 }
 ```
 
