@@ -60,15 +60,12 @@ Download the following datasets and unzip them into `data` folder
     cd src
     python3 test.py
 ```
-- After testing, saliency maps of `PASCAL-S`, `ECSSD`, `HKU-IS`, `DUT-OMRON`, `DUTS-TE` will be saved in `eval/F3Net/` folder.
+- After testing, saliency maps of `PASCAL-S`, `ECSSD`, `HKU-IS`, `DUT-OMRON`, `DUTS-TE` will be saved in `./experiments/` folder.
 
-## Saliency maps & Trained model
-- saliency maps: [Baidu](https://pan.baidu.com/s/1ZIfZ90FoqlrSdoD31Lul5g) [Google](https://drive.google.com/file/d/1FfZtzfSX6-hlwar4yJYLuGogGbLW9sYe/view?usp=sharing)
-- trained model: [Baidu](https://pan.baidu.com/s/1qlqiCG0d9o2wH8ddeVJsSQ) [Google](https://drive.google.com/file/d/1jcsmxZHL6DGwDplLp93H4VeN2ZjqBsOF/view?usp=sharing)
 
 
 ## Evaluation
-- To evaluate the performace of F3Net, please use MATLAB to run `main.m`
+- To evaluate the model performace, please use MATLAB to run `main.m`
 ```shell
     cd eval
     matlab
@@ -100,9 +97,4 @@ We appreciate the codebases of [F3Net](https://github.com/weijun88/F3Net), [MINe
 }
 ```
 
-
-
-## Contact
-
-Any question, discussion or even complaint, feel free to leave issues here or send me e-mails (zhengpeng0108@gmail.com).
 
