@@ -12,11 +12,6 @@ Experimental results show that our ASTE-AL can find such a point-labeled dataset
 
 ![arch](README.assets/pipeline.png)
 
-## Result
-
-+ Comparison with the previous state-of-the-art methods with different training sets:
-
-![image-20220601123106208](README.assets/results.png)
 
 
 
@@ -48,29 +43,44 @@ Download the following datasets and unzip them into `data` folder
 - [DUT-OMRON](http://saliencydetection.net/dut-omron/)
 - [DUTS](http://saliencydetection.net/duts/)
 
-4. **Update the paths**
+## Training
 
-    Replace all `/root/datasets/sod/GCoNet_plus` and `/root/codes/sod/GCoNet_plus` in this project to  `/YOUR_PATH/datasets/sod/GCoNet_plus` and `/YOUR_PATH/codes/sod/GCoNet_plus`, respectively.
+```shell
+    cd src/
+    python3 train.py
+```
+- `ResNet-50` is used as the backbone of F3Net and `DUTS-TR` is used to train the model
+- `batch=32`, `lr=0.05`, `momen=0.9`, `decay=5e-4`, `epoch=32`
+- Warm-up and linear decay strategies are used to change the learning rate `lr`
+- After training, the result models will be saved in `out` folder
 
-5. **Training + Test + Evaluate + Select the Best**
+## Testing
 
-    `./gco.sh`
+```shell
+    cd src
+    python3 test.py
+```
+- After testing, saliency maps of `PASCAL-S`, `ECSSD`, `HKU-IS`, `DUT-OMRON`, `DUTS-TE` will be saved in `eval/F3Net/` folder.
 
-    If you can apply more GPUs on the DGX cluster, you can `./sub_by_id.sh` to submit multiple times for more stable results.
+## Saliency maps & Trained model
+- saliency maps: [Baidu](https://pan.baidu.com/s/1ZIfZ90FoqlrSdoD31Lul5g) [Google](https://drive.google.com/file/d/1FfZtzfSX6-hlwar4yJYLuGogGbLW9sYe/view?usp=sharing)
+- trained model: [Baidu](https://pan.baidu.com/s/1qlqiCG0d9o2wH8ddeVJsSQ) [Google](https://drive.google.com/file/d/1jcsmxZHL6DGwDplLp93H4VeN2ZjqBsOF/view?usp=sharing)
 
-    If you have the OOM problem, plz decrease `batch_size` in `config.py`.
 
-6. **Adapt the settings of modules in config.py**
+## Evaluation
+- To evaluate the performace of F3Net, please use MATLAB to run `main.m`
+```shell
+    cd eval
+    matlab
+    main
+```
 
-    You can change the weights of losses, try various *backbones* or use different *data augmentation* strategies. There are also some modules coded but not used in this work, like *adversarial training*, the *refiner* in [BASNet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Qin_BASNet_Boundary-Aware_Salient_Object_Detection_CVPR_2019_paper.pdf), weighted *multiple output and supervision* used in [GCoNet](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Group_Collaborative_Learning_for_Co-Salient_Object_Detection_CVPR_2021_paper.pdf) and [GICD](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570443.pdf), etc.
+## Result
 
-    ![image-20220426234911555](README.assets/config.png)
++ Comparison with the previous state-of-the-art methods with different training sets:
 
-## Download
+![image-20220601123106208](README.assets/results.png)
 
-​	Find **well-trained models** + **predicted saliency maps** and all other stuff on my [google-drive folder for this work](https://drive.google.com/drive/folders/1SIr_wKT3MkZLtZ0jacOOZ_Y5xnl9-OPw?usp=sharing):
-
-![GD_content](README.assets/GD_content.png)
 
 ## Acknowledgement
 
