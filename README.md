@@ -84,7 +84,7 @@ Download the following datasets and unzip them into `data` folder
 
 ## Acknowledgement
 
-We appreciate the codebases of [F3Net](https://github.com/weijun88/F3Net), [MINet](https://github.com/lartpang/MINet) and (PFSN)(https://github.com/iCVTEAM/PFSNet).
+We appreciate the codebases of [F3Net](https://github.com/weijun88/F3Net), [MINet](https://github.com/lartpang/MINet) and [PFSN](https://github.com/iCVTEAM/PFSNet).
 
 ### Citation
 
