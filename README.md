@@ -8,7 +8,7 @@ Experimental results show that our ASTE-AL can find such a point-labeled dataset
 
 ## Framework Overview
 
-> The figure of network architecture is drawn by [Inkscape (0.92.5)](https://inkscape.org/release/inkscape-0.92.5/) as a .svg file. You can download and modify it if you find it useful.
+
 
 ![arch](README.assets/pipeline.png)
 
