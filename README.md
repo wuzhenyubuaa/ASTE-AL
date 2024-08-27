@@ -1,5 +1,5 @@
 ## <p align=center> `Pixel Is All You Need: Adversarial Spatio-Temporal Ensembles Active Learning for Salient Object Detection` </p>
-> #### Zhenyu Wu, Wei Wang, Lin Wang, Yacong Li, Fengmao Lv, Qing Xia, Chenglizhao Chen, Aimin Hao, Shuo Li </sup>
+> #### Zhenyu Wu, Wei Wang, Yacong Li, Fengmao Lv, Qing Xia, Chenglizhao Chen, Aimin Hao, Shuo Li </sup>
 
 
 <font size=7><div align='center' > <a href=https://arxiv.org/abs/2212.06493>**Paper**</a> | [**Dataset**](#dataset)   | [**Training**](#training) | [**Testing**](#Testing) | [**Pre-trained Model**](#training) | </div></font>
