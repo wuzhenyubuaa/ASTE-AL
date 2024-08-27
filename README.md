@@ -2,7 +2,7 @@
 > #### Zhenyu Wu, Wei Wang, Lin Wang, Yacong Li, Fengmao Lv, Qing Xia, Chenglizhao Chen, Aimin Hao, Shuo Li </sup>
 
 
-<font size=7><div align='center' > <a href=https://arxiv.org/abs/2312.02228>**Paper**</a> | <a href="https://huggingface.co/maverickrzw/PixelLM-13B/tree/main">**Models**</a> | [**Training**](#training) | [**Inference**](#Testing)  [**Dataset**](# Download dataset) | <a href="https://pixellm.github.io/">**Project Page**</a></div></font>
+<font size=7><div align='center' > <a href=https://arxiv.org/abs/2212.06493>**Paper**</a> | <a href="https://huggingface.co/maverickrzw/PixelLM-13B/tree/main">**Models**</a> | [**Training**](#training) | [**Testing**](#Testing)  [**Dataset**](# Dataset) 
 ## Abstract
 
 Although weakly-supervised techniques can reduce the labeling effort, it is unclear whether a saliency model trained with weakly-supervised data (e.g., point annotation) can achieve the equivalent performance of its fully-supervised version. This paper attempts to answer this unexplored question by proving a hypothesis: there is a point-labeled dataset where saliency models trained on it can achieve equivalent performance when trained on the densely annotated dataset. To prove this conjecture, we proposed a novel yet effective adversarial spatio-temporal ensembles active learning (ASTE-AL). Our contributions are three-fold:  1) Our proposed adversarial attack triggering uncertainty can conquer the overconfidence of existing active learning methods and accurately locate these uncertain pixels. 2) Our proposed spatio-temporal ensembles strategy not only achieves better performance than the traditional deep ensembles but significantly reducing the computational cost. 3) Our proposed relationship-aware diversity sampling algorithm can conquer oversampling while boosting model performance.
@@ -36,7 +36,7 @@ git clone https://github.com/wuzhenyubuaa/ASTE-AL.git
 cd F3Net/
 ```
 
-## Download dataset
+## Dataset
 
 Download the following datasets and unzip them into `data` folder
 
@@ -46,7 +46,7 @@ Download the following datasets and unzip them into `data` folder
 - [DUT-OMRON](http://saliencydetection.net/dut-omron/)
 - [DUTS](http://saliencydetection.net/duts/)
 
-## Data configuration
+## Dataset configuration
 
 - For the training setup, update the `--dir_dataset` parameter in the `train.py` file to your training data path, e.g., `dir_dataset='./your_path/DUTS'`.
 - For the testing, place all testing datasets in the same folder, and update the `--test_dataset_root` parameter in the `test.py` file to point to your testing data path, e.g., `test_dataset_root='./your_testing_data_path/'`.
