@@ -2,7 +2,7 @@
 > #### Zhenyu Wu, Wei Wang, Lin Wang, Yacong Li, Fengmao Lv, Qing Xia, Chenglizhao Chen, Aimin Hao, Shuo Li </sup>
 
 
-<font size=7><div align='center' > <a href=https://arxiv.org/abs/2212.06493>**Paper**</a> | <a href="https://huggingface.co/maverickrzw/PixelLM-13B/tree/main">**Models**</a> | [**Training**](#training) | [**Testing**](#Testing) | [**Dataset**](#dataset) | </div></font>
+<font size=7><div align='center' > <a href=https://arxiv.org/abs/2212.06493>**Paper**</a> | [**Pre-trained Model**](#training) | [**Training**](#training) | [**Testing**](#Testing) | [**Dataset**](#dataset) | </div></font>
 
 ## Abstract
 
@@ -82,6 +82,10 @@ Download the following datasets and unzip them into `data` folder
     matlab
     main
 ```
+
+## Pre-trained model
+
+
 
 ## Result
 
