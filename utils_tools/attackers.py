@@ -70,6 +70,7 @@ def show_image(image_np, title):
     image_pil = Image.fromarray((image_np * 255).astype(np.uint8).squeeze().transpose(1, 2, 0))
     image_pil.show(title=title)
 
+
 # Show original and adversarial images
 show_image(image, 'Original Image')
 show_image(image_adv_fgsm, 'FGSM Adversarial Image')

@@ -1,6 +1,8 @@
 from PIL import Image, ImageOps, ImageEnhance
 import numpy as np
 
+
+# Various data augmentation methods
 def rotate_image(image, angle):
     return image.rotate(angle)
 

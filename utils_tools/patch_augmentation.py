@@ -2,7 +2,6 @@ import random
 import numpy as np
 from PIL import Image
 
-
 def divide_image(image, N):
     width, height = image.size
     patch_width = width // N
