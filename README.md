@@ -81,7 +81,7 @@ Download the following datasets and unzip them into `data` folder
     main
 ```
 
-## Pre-trained model (F3Net)
+## Pre-trained model 
 
 | Model Name        | Pixel number      | Download Link                                    |
 |-------------------|-------------------|--------------------------------------------------|
