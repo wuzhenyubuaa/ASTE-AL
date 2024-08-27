@@ -1,4 +1,4 @@
-# <p align=center>`Pixel Is All You Need: Adversarial Spatio-Temporal Ensembles Active Learning for Salient Object Detection`</p>
+## <p align=center> `Pixel Is All You Need: Adversarial Spatio-Temporal Ensembles Active Learning for Salient Object Detection` </p>
 > #### Zhenyu Wu, Wei Wang, Lin Wang, Yacong Li, Fengmao Lv, Qing Xia, Chenglizhao Chen, Aimin Hao, Shuo Li </sup>
 
 ## Abstract
