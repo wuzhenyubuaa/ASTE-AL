@@ -32,7 +32,7 @@ Although weakly-supervised techniques can reduce the labeling effort, it is uncl
 
 ```shell
 git clone https://github.com/wuzhenyubuaa/ASTE-AL.git
-cd F3Net/
+cd ASTE-AL/
 ```
 
 ## Dataset
