@@ -44,6 +44,13 @@ Download the following datasets and unzip them into `data` folder
 - [DUT-OMRON](http://saliencydetection.net/dut-omron/)
 - [DUTS](http://saliencydetection.net/duts/)
 
+## Data configuration
+
+- For the training setup, update the `--dir_dataset` parameter in the `train.py` file to your training data path, e.g., `dir_dataset='./your_path/DUTS'`.
+- For the testing, place all testing datasets in the same folder, and update the `--test_dataset_root` parameter in the `test.py` file to point to your testing data path, e.g., `test_dataset_root='./your_testing_data_path/'`.
+
+
+
 ## Training
 
 ```shell
