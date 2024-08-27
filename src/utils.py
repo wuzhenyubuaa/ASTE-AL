@@ -39,6 +39,7 @@ class Visualiser:
             global palette_voc
             self.palette = palette_voc
 
+
     def _preprocess(self, tensor, seg=False, downsample=1):
         if len(tensor.shape) == 2:
             h, w = tensor.shape
