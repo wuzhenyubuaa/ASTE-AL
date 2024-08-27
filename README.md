@@ -83,7 +83,18 @@ Download the following datasets and unzip them into `data` folder
 
 ## Pre-trained model
 
-
+| Model Name        | Pixel number      | Download Link                                    |
+|-------------------|-------------------|--------------------------------------------------|
+| query1-model         | one annotated pixel per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
+| query2-model         | two annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
+| query3-model         | three annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)   |
+| query4-model         | four annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
+| query5-model         | five annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
+| query6-model         | six annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
+| query7-model         | seven annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)    |
+| query8-model         | eight annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)    |
+| query9-model         | nine annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
+| query10-model         | ten annotated pixels per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
 
 ## Result
 
