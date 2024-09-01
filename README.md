@@ -73,13 +73,6 @@ Download the following datasets and unzip them into `data` folder
 
 
 
-## Evaluation
-- To evaluate the model performace, please use MATLAB to run `main.m`
-```shell
-    cd eval
-    matlab
-    main
-```
 
 ## Pre-trained model 
 
