@@ -74,21 +74,6 @@ Download the following datasets and unzip them into `data` folder
 
 
 
-## Pre-trained model 
-
-| Model Name        | Pixel number      | Download Link                                    |
-|-------------------|-------------------|--------------------------------------------------|
-| query1-model         | one annotated pixel per image    | [Download](https://drive.google.com/file/d/1mqyId2epw_V9UC7kgNLTrUNFTHpOAmYn/view?usp=drive_link)     |
-| query2-model         | two annotated pixels per image    | [Download](https://drive.google.com/file/d/1zAUoYLWgLVDa5XcmC4C_mZ8x7X68yqPE/view?usp=drive_link)     |
-| query3-model         | three annotated pixels per image    | [Download](https://drive.google.com/file/d/1uIt811x2hex7V3AnImsNGcSJprmtXJsh/view?usp=drive_link)   |
-| query4-model         | four annotated pixels per image    | [Download](https://drive.google.com/file/d/1H15ag5bGvBtI0DGFY8FqK9P9OhPqrrrJ/view?usp=drive_link)     |
-| query5-model         | five annotated pixels per image    | [Download](https://drive.google.com/file/d/1S6CSl7bpKXtvLZcHxG1bs9N37j68Dsti/view?usp=drive_link)     |
-| query6-model         | six annotated pixels per image    | [Download](https://drive.google.com/file/d/1v-2nOvZRYbBCdeVCf9AO3kaoMUgyqhW1/view?usp=drive_link)     |
-| query7-model         | seven annotated pixels per image    | [Download](https://drive.google.com/file/d/1XuPJY6NxF72D9rKhPiJphpJRJMSpNSac/view?usp=drive_link)    |
-| query8-model         | eight annotated pixels per image    | [Download](https://drive.google.com/file/d/1Zt2KqC3xbOE5mGq_2qK4Fb2_zQ5SHPtA/view?usp=drive_link)    |
-| query9-model         | nine annotated pixels per image    | [Download](https://drive.google.com/file/d/1ztoLDiNbWVhxVvhpjDkgPlAg0CJWqaeP/view?usp=drive_link)     |
-| query10-model         | ten annotated pixels per image    | [Download](https://drive.google.com/file/d/1vxipQV3GqRP5w4fK7aTcfcOREI37VGp4/view?usp=drive_link)     |
-
 ## Result
 
 + Comparison with the previous state-of-the-art methods with different training sets:
